@@ -1,0 +1,30 @@
+{
+  "name": "aws-ses-email-relay",
+  "version": "0.1.0",
+  "description": "Relay emails from AWS SES",
+  "main": "",
+  "scripts": {
+    "deploy": "sls deploy -s",
+    "deploy:info": "sls info  -v -s",
+    "deploy:func": "sls deploy function -f relay -s",
+    "remove": "sls remove -s"
+  },
+  "keywords": [
+    "ses",
+    "aws",
+    "email",
+    "relay",
+    "parse",
+    "kdc"
+  ],
+  "author": {
+    "name": "Ian Dela Cruz",
+    "email": "ian@kdcsoftare.com",
+    "url": "https://www.kdcosftware.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.673.0",
+    "parse-email": "^1.0.0"
+  }
+}
