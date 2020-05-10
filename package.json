@@ -22,6 +22,10 @@
     "email": "ian@kdcsoftare.com",
     "url": "https://www.kdcosftware.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdcsoftware/aws-ses-email-relay.git"
+  },
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.673.0",
