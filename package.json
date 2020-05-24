@@ -32,6 +32,6 @@
     "parse-email": "^1.0.0"
   },
   "devDependencies": {
-    "serverless-bundle": "^1.4.0"
+    "serverless-bundle": "^1.6.0"
   }
 }
