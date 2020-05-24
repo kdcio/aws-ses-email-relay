@@ -1,5 +1,8 @@
 service: aws-ses-email-relay
 
+plugins:
+  - serverless-bundle
+
 package:
   individually: true
   excludeDevDependencies: true

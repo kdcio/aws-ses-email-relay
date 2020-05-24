@@ -1,9 +1,9 @@
-const AWS = require("aws-sdk");
-const parse = require("parse-email");
+import SES from "aws-sdk/clients/ses";
+import parse from "parse-email";
 
-const ses = new AWS.SES({ region: process.env.REGION || "us-east-1" });
+const ses = new SES({ region: process.env.REGION || "us-east-1" });
 
-const handler = async (event) => {
+export const handler = async (event) => {
   const { Message } = event.Records[0].Sns;
   const msg = JSON.parse(Message);
   console.log("Message:", JSON.stringify(msg, null, 2));
@@ -42,5 +42,3 @@ const handler = async (event) => {
 
   return ses.sendEmail(params).promise();
 };
-
-module.exports = { handler };
