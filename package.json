@@ -32,6 +32,7 @@
     "parse-email": "^1.0.0"
   },
   "devDependencies": {
+    "js-yaml": "^3.14.0",
     "serverless-bundle": "^1.6.0"
   }
 }

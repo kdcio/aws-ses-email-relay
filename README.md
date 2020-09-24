@@ -24,9 +24,16 @@ config.prod.yml:
 ```yml
 REGION: us-east-1
 PROFILE: my-aws-profile
-DESTINATION: my@destination-email.com
+DESTINATION:
+  "my.yahoo@receiving-email.com": my.admin@yahoo.com
+  "my.gmail@receiving-email.com": my.admin@gmail.com
+  "default":
+    - my.admin@gmail.com
+    - my.admin@yahoo.com
 FROM: my@receiving-email.com
 ```
+
+`DESTINATION` is a mapping of recepient email to destination email. The destination email can be an array. `default` is a catch all destination.
 
 `FROM` should be a fallback email address capable of sending emails via your AWS account.
 

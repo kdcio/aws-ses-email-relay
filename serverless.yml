@@ -18,7 +18,7 @@ provider:
   environment:
     TZ: "Asia/Singapore"
     REGION: ${self:provider.region}
-    DESTINATION: ${file(./config.${self:provider.stage}.yml):DESTINATION}
+    DESTINATION: ${file(./config.js):DESTINATION}
     FROM: ${file(./config.${self:provider.stage}.yml):FROM}
   iamRoleStatements:
     - Effect: Allow
