@@ -7,7 +7,9 @@
     "deploy": "sls deploy -s",
     "deploy:info": "sls info  -v -s",
     "deploy:func": "sls deploy function -f relay -s",
-    "remove": "sls remove -s"
+    "remove": "sls remove -s",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "ses",
@@ -29,10 +31,12 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.673.0",
-    "parse-email": "^1.0.0"
+    "parse-email": "^1.0.0",
+    "snyk": "^1.413.3"
   },
   "devDependencies": {
     "js-yaml": "^3.14.0",
     "serverless-bundle": "^1.6.0"
-  }
+  },
+  "snyk": true
 }
