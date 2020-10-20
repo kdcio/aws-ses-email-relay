@@ -28,11 +28,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.673.0",
+    "aws-sdk": "^2.774.0",
     "parse-email": "^1.0.0"
   },
   "devDependencies": {
     "js-yaml": "^3.14.0",
-    "serverless-bundle": "^1.6.0"
+    "serverless-bundle": "^1.9.1"
   }
 }
