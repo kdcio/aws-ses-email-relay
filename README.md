@@ -7,7 +7,7 @@ Receive email from AWS SES then relay it to your desired destination.
 ## Install
 
 ```bash
-git clone https://github.com/kdcsoftware/aws-ses-email-relay.git
+git clone https://github.com/kdcio/aws-ses-email-relay.git
 cd aws-ses-email-relay
 npm i
 npm i serverless -g
