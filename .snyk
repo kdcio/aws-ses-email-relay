@@ -6,3 +6,6 @@ patch:
   'npm:marked:20170907':
     - parse-email > @nodemailer/mailparser2 > marked:
         patched: '2020-10-14T01:29:29.391Z'
+  'npm:marked:20170112':
+    - parse-email > @nodemailer/mailparser2 > marked:
+        patched: '2021-05-06T22:05:46.809Z'
