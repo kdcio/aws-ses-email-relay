@@ -31,7 +31,8 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.880.0",
-    "parse-email": "^1.0.0"
+    "parse-email": "^1.0.0",
+    "snyk": "^1.564.0"
   },
   "devDependencies": {
     "js-yaml": "^3.14.0",
