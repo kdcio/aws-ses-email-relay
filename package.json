@@ -32,7 +32,7 @@
   "dependencies": {
     "aws-sdk": "^2.890.0",
     "parse-email": "^1.0.0",
-    "snyk": "^1.584.0"
+    "snyk": "^1.667.0"
   },
   "devDependencies": {
     "js-yaml": "^3.14.0",
